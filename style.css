@@ -1,0 +1,176 @@
+@charset "UTF-8"
+
+* {
+margin: 0;
+padding: 0;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+#wrapper {
+  width: 100%;
+  padding: 0;
+  box-shadow: 4px 0px 4px grey;
+}
+
+#content {
+  width: 960px;
+  padding: 15px;
+  margin: 10px auto;
+  background: #ffffff;
+  overflow: auto;
+
+}
+
+#header {
+  background: white;
+  padding: 10px;
+  margin-bottom: 0px;
+  overflow: hidden;
+}
+
+#header img {
+    width: 200px;
+}
+
+#content img {
+  width: 320px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border: 10px solid white;
+  box-shadow: 4px 0px 4px grey;
+
+}
+
+#main a:link {
+    color: #cc4789;
+    text-decoration: none;
+
+}
+
+#main a:hover {
+    text-decoration: underline;
+}
+
+#main a:visited{
+  color: purple;
+  text-decoration: none;
+}
+
+#logo {
+  float: left;
+}
+
+#slogan {
+  float: right;
+  font-family: 'Amatic SC', cursive;
+  font-size: 1em;
+  padding-right: 20px;
+  padding-top: 20px;
+  }
+
+#navigation {
+  background-color: rgba(244, 237, 212, 0.9);
+  height: 40px;
+  /* margin-bottom: 10px; */
+  position: sticky;
+  top: 0;
+  width: 100%;
+  padding: 0;
+  box-shadow: 4px 0px 4px grey;
+}
+
+#navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float:left;
+    height: max;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#navigation ul li {
+    float: left;
+}
+
+#navigation ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+  }
+
+#navigation ul li a:hover {
+    background-color: #cec8cb;
+}
+
+#active {
+    background-color: #dda8c2;
+}
+
+#main {
+  width: 580px;
+  float: left;
+  padding: 10px;
+  }
+
+p {
+  color: rgba(0,0,0,0.7);
+  margin: 0px 0px;
+  line-height: 1.5em;
+ font-family: 'Roboto Condensed', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  }
+
+#sidebar {
+  width: 340px;
+  float: right;
+  padding: 10px;
+  }
+
+  h2, h3 {
+    font-family: 'IBM Plex Serif', serif;
+    font-weight: normal;
+    font-size: 1.8em;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    color: #303030;
+    padding-top: 0px;
+  }
+
+  h3 {
+    font-size: 1.8em;
+  }
+
+#footer {
+  width: 100%;
+  clear: both;
+  font-size: 9pt;
+  text-align: center;
+  padding: 10px;
+  color: grey;
+}
+
+#footer p {
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); ;
+  clear: left;
+}
